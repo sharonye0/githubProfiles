@@ -1,4 +1,94 @@
-h1 {
-  color: #f00;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #2a2a72;
+  gap: 30px;
+}
+
+/* ------------------------ */
+/* COMPONENT STYLES */
+/* ------------------------ */
+
+.search-input {
+  width: 500px;
+  height: 50px;
+  padding: 20px;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  background-color: #4c2885;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.search-input::placeholder {
+  color: rgb(208, 196, 216);
+}
+
+.user-card {
+  display: flex;
+
+  width: 800px;
+  height: 350px;
+  background-color: #4c2885;
+  border-radius: 10px;
+}
+
+.img-container {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.img {
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  outline: 10px solid #2a2a72;
+}
+.text-content {
+  width: 600px;
+  padding: 40px;
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.username {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.bio {
+  
+}
+
+.follower-following-repos {
+  display: flex;
+  gap: 50px;
+}
