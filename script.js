@@ -1,6 +1,3 @@
-// get /users/{username}
-// get /users/{username}/repos
-
 const APIURL = "https://api.github.com/users/";
 const searchTerm = document.querySelector(".search-input");
 const searchBar = document.querySelector(".search-bar");
